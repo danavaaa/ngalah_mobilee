@@ -10,11 +10,13 @@ class NgalahApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // root widget aplikasi
     return MaterialApp(
+      // widget utama aplikasi
       debugShowCheckedModeBanner: false,
       title: 'Ngalah Mobile',
-      theme: ThemeData(primarySwatch: Colors.green),
-      home: const PreopeningScreen(),
+      theme: ThemeData(primarySwatch: Colors.green), // tema hijau
+      home: const PreopeningScreen(), // layar pembuka
     );
   }
 }
